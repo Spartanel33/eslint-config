@@ -325,13 +325,6 @@ export interface OptionsConfig extends OptionsComponentExts, OptionsProjectType 
   jsx?: boolean | OptionsJSX;
 
   /**
-   * Options for eslint-plugin-import-lite.
-   *
-   * @default true
-   */
-  imports?: boolean | OptionsOverrides;
-
-  /**
    * Enable test support.
    *
    * @default true
