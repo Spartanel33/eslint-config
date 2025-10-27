@@ -278,13 +278,6 @@ export interface OptionsVue extends OptionsOverrides {
   sfcBlocks?: boolean | VueBlocksOptions;
 
   /**
-   * Vue version. Apply different rules set from `eslint-plugin-vue`.
-   *
-   * @default 3
-   */
-  vueVersion?: 2 | 3;
-
-  /**
    * Vue accessibility plugin. Help check a11y issue in `.vue` files upon enabled
    *
    * @see https://vue-a11y.github.io/eslint-plugin-vuejs-accessibility/
