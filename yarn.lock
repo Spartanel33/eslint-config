@@ -16,7 +16,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.28.3":
+"@babel/generator@npm:^7.28.5":
   version: 7.28.5
   resolution: "@babel/generator@npm:7.28.5"
   dependencies:
@@ -54,7 +54,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.28.4, @babel/types@npm:^7.28.5":
+"@babel/types@npm:^7.28.5":
   version: 7.28.5
   resolution: "@babel/types@npm:7.28.5"
   dependencies:
@@ -505,9 +505,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kadesy10/eslint-config@workspace:.":
+"@kadesy/eslint-config@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@kadesy10/eslint-config@workspace:."
+  resolution: "@kadesy/eslint-config@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.38.0"
     "@prettier/plugin-xml": "npm:^3.4.2"
@@ -606,6 +606,13 @@ __metadata:
   dependencies:
     semver: "npm:^7.3.5"
   checksum: 10/405c4490e1ff11cf299775449a3c254a366a4b1ffc79d87159b0ee7d5558ac9f6a2f8c0735fd6ff3873cef014cb1a44a5f9127cb6a1b2dbc408718cca9365b5a
+  languageName: node
+  linkType: hard
+
+"@oxc-project/runtime@npm:^0.95.0":
+  version: 0.95.0
+  resolution: "@oxc-project/runtime@npm:0.95.0"
+  checksum: 10/0c6acde5557096ca9cf708b8e5830c900416d5cba3958c641d815460928406efc56eb244eb4b1e2ae7a60bcd4f23021a3a391eeba599734e1c562ed6a2681b2c
   languageName: node
   linkType: hard
 
@@ -1190,21 +1197,21 @@ __metadata:
   linkType: hard
 
 "@vitest/eslint-plugin@npm:^1.3.23":
-  version: 1.3.23
-  resolution: "@vitest/eslint-plugin@npm:1.3.23"
+  version: 1.3.25
+  resolution: "@vitest/eslint-plugin@npm:1.3.25"
   dependencies:
     "@typescript-eslint/scope-manager": "npm:^8.46.1"
     "@typescript-eslint/utils": "npm:^8.46.1"
   peerDependencies:
-    eslint: ">= 8.57.0"
-    typescript: ">= 5.0.0"
+    eslint: ">=8.57.0"
+    typescript: ">=5.0.0"
     vitest: "*"
   peerDependenciesMeta:
     typescript:
       optional: true
     vitest:
       optional: true
-  checksum: 10/7a887acd8c68e1b5dd2d120e8e34d60b4b9380854a1f7652a745454ae5d4e4cda0d05c59b0e793486ba376b0093d6c203d1e95e31612f11e9ddaca7f9e95215a
+  checksum: 10/afd9019fc319de3a141cf3dfa8c53ef83d4d6f6c9cc7849f0b978431d42f49881849348ff49a6078c88c02947f43dd0b4bdb68ddaa6378c02e7dc9da0e0dac6e
   languageName: node
   linkType: hard
 
@@ -2464,8 +2471,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-jsdoc@npm:^61.1.8":
-  version: 61.1.8
-  resolution: "eslint-plugin-jsdoc@npm:61.1.8"
+  version: 61.1.9
+  resolution: "eslint-plugin-jsdoc@npm:61.1.9"
   dependencies:
     "@es-joy/jsdoccomment": "npm:~0.76.0"
     "@es-joy/resolve.exports": "npm:1.0.0"
@@ -2483,7 +2490,7 @@ __metadata:
     to-valid-identifier: "npm:^1.0.0"
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10/4c97d9c44dae9d697a72d12ce92a029f59d6ecf996a25dcf812fa5b895b6af36434197f90d1e368f98d5b45c069edce86b87b831580cc18b94fd78f754943f8b
+  checksum: 10/0136623983fc7cb704b06e135d52ba683d2b743a5d02607f4af912a6903e274094e30673a38fbdf67009b8b6553d5870060d988e5cc6307350802e5dbf510d4c
   languageName: node
   linkType: hard
 
@@ -3037,7 +3044,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-tsconfig@npm:^4.12.0, get-tsconfig@npm:^4.7.5":
+"get-tsconfig@npm:^4.13.0, get-tsconfig@npm:^4.7.5":
   version: 4.13.0
   resolution: "get-tsconfig@npm:4.13.0"
   dependencies:
@@ -3722,7 +3729,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.30.19":
+"magic-string@npm:^0.30.19, magic-string@npm:^0.30.21":
   version: 0.30.21
   resolution: "magic-string@npm:0.30.21"
   dependencies:
@@ -4644,23 +4651,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rolldown-plugin-dts@npm:^0.16.12":
-  version: 0.16.12
-  resolution: "rolldown-plugin-dts@npm:0.16.12"
+"rolldown-plugin-dts@npm:^0.17.1":
+  version: 0.17.1
+  resolution: "rolldown-plugin-dts@npm:0.17.1"
   dependencies:
-    "@babel/generator": "npm:^7.28.3"
-    "@babel/parser": "npm:^7.28.4"
-    "@babel/types": "npm:^7.28.4"
+    "@babel/generator": "npm:^7.28.5"
+    "@babel/parser": "npm:^7.28.5"
+    "@babel/types": "npm:^7.28.5"
     ast-kit: "npm:^2.1.3"
     birpc: "npm:^2.6.1"
     debug: "npm:^4.4.3"
     dts-resolver: "npm:^2.1.2"
-    get-tsconfig: "npm:^4.12.0"
-    magic-string: "npm:^0.30.19"
+    get-tsconfig: "npm:^4.13.0"
+    magic-string: "npm:^0.30.21"
   peerDependencies:
     "@ts-macro/tsc": ^0.3.6
     "@typescript/native-preview": ">=7.0.0-dev.20250601.1"
-    rolldown: ^1.0.0-beta.9
+    rolldown: ^1.0.0-beta.44
     typescript: ^5.0.0
     vue-tsc: ~3.1.0
   peerDependenciesMeta:
@@ -4672,7 +4679,7 @@ __metadata:
       optional: true
     vue-tsc:
       optional: true
-  checksum: 10/34b4e6dec26add32455948c4889304e72e1593a26bc9019d8d4685d3d4acfbb02f3049d165440840caa31152c0d1949a9f27a71ebd47a68180dbe0b750004148
+  checksum: 10/a6f2c803218e0723ef1c03e93ced8e21aff1a4d91481259ef0e61e89134547179c6f9f17876c48852685886be5d6fbb63d6e6162ee47be2f4f783c609c21f087
   languageName: node
   linkType: hard
 
@@ -5206,7 +5213,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:^0.6.2 || ^0.7.3 || ^0.11.5":
+"synckit@npm:^0.11.11, synckit@npm:^0.6.2 || ^0.7.3 || ^0.11.5":
   version: 0.11.11
   resolution: "synckit@npm:0.11.11"
   dependencies:
@@ -5326,8 +5333,8 @@ __metadata:
   linkType: hard
 
 "tsdown@npm:^0.15.9":
-  version: 0.15.9
-  resolution: "tsdown@npm:0.15.9"
+  version: 0.15.10
+  resolution: "tsdown@npm:0.15.10"
   dependencies:
     ansis: "npm:^4.2.0"
     cac: "npm:^6.7.14"
@@ -5337,12 +5344,13 @@ __metadata:
     empathic: "npm:^2.0.0"
     hookable: "npm:^5.5.3"
     rolldown: "npm:1.0.0-beta.44"
-    rolldown-plugin-dts: "npm:^0.16.12"
+    rolldown-plugin-dts: "npm:^0.17.1"
     semver: "npm:^7.7.3"
     tinyexec: "npm:^1.0.1"
     tinyglobby: "npm:^0.2.15"
     tree-kill: "npm:^1.2.2"
     unconfig: "npm:^7.3.3"
+    unrun: "npm:^0.2.0"
   peerDependencies:
     "@arethetypeswrong/core": ^0.18.1
     publint: ^0.3.0
@@ -5362,7 +5370,7 @@ __metadata:
       optional: true
   bin:
     tsdown: dist/run.mjs
-  checksum: 10/92353b0ef76a9a3f7f49e773e446f49b27bffb9e2dd83636c84ce9dfe5db37f67d9f097f06f3de547a6a3d8edac575080958ddbff15954faa24b7242c79c3a93
+  checksum: 10/a85292b7def65465fa6566f39c215c4ef388998f977b501805c68b9e63aa10f2ccd04df418db72988e7b0cc2eba68bdfd405a7830a71a240be764775db4431b2
   languageName: node
   linkType: hard
 
@@ -5526,6 +5534,19 @@ __metadata:
   dependencies:
     "@types/unist": "npm:^3.0.0"
   checksum: 10/d15c88aca7a31902d95d5b5355bbe09583cf6f6ff6e59e134ef76c76d3c30bc1021f2d7ea5b7897c6d0858ed5f3770c1b19de9c78274f50d72f95a0d05f1af71
+  languageName: node
+  linkType: hard
+
+"unrun@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "unrun@npm:0.2.0"
+  dependencies:
+    "@oxc-project/runtime": "npm:^0.95.0"
+    rolldown: "npm:1.0.0-beta.44"
+    synckit: "npm:^0.11.11"
+  bin:
+    unrun: dist/cli.js
+  checksum: 10/70cfb56ef3da1ad3d1aafd6c6d89cd17d62963becb2e9fcf57a3aa8bfdd93c8156a7bca0078a796190e7b3dddd26f76e1be84b26cd5833c37fdc558f85e17b36
   languageName: node
   linkType: hard
 

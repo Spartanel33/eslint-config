@@ -1,5 +1,7 @@
 import type { VendoredPrettierOptions, VendoredPrettierRuleOptions } from '../prettier-types';
-import type { OptionsFormatters, StylisticConfig, TypedFlatConfigItem } from '../types';
+import type {
+  OptionsFormatters, StylisticConfig, TypedFlatConfigItem,
+} from '../types';
 
 import {
   GLOB_CSS,

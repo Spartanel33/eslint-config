@@ -61,7 +61,7 @@ export function kadesy(
     autoRenamePlugins = true,
     componentExts = [],
     typescript: enableTypeScript = true,
-    vue: enableVue = false,
+    vue: enableVue = true,
     jsx: enableJsx = true,
     formatters: formattersOptions = true,
     perfectionist: enablePerfectionist = true,

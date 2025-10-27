@@ -1,5 +1,8 @@
+import { kadesy } from './factory';
+
 export * from './configs';
+export * from './factory';
+export * from './types';
+export * from './utils';
 
-export { kadesy } from './factory';
-
-export { combine } from './utils';
+export default kadesy;

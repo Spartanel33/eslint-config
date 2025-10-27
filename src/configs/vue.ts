@@ -1,4 +1,6 @@
-import type { OptionsFiles, OptionsHasTypeScript, OptionsOverrides, OptionsStylistic, OptionsVue, TypedFlatConfigItem } from '../types';
+import type {
+  OptionsFiles, OptionsHasTypeScript, OptionsOverrides, OptionsStylistic, OptionsVue, TypedFlatConfigItem,
+} from '../types';
 
 import { mergeProcessors } from 'eslint-merge-processors';
 

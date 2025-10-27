@@ -1,5 +1,5 @@
 {
-  "name": "@kadesy10/eslint-config",
+  "name": "@kadesy/eslint-config",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "yarn@4.10.3",
@@ -16,13 +16,13 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsdown",
+    "build": "yarn typegen && tsdown --clean --dts",
     "typegen": "tsx scripts/typegen.ts",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^9.0.0"
   },
   "dependencies": {
     "eslint-flat-config-utils": "^2.1.4",
