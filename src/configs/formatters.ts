@@ -10,7 +10,7 @@ import {
   GLOB_SVG,
   GLOB_XML,
 } from '../globs';
-import { interopDefault, parserPlain } from '../utils';
+import { interopDefault, isPackageInScope, parserPlain } from '../utils';
 import { StylisticConfigDefaults } from './stylistic';
 
 function mergePrettierOptions(
@@ -29,11 +29,12 @@ export async function formatters(
   stylistic: StylisticConfig = {},
 ): Promise<TypedFlatConfigItem[]> {
   if (options === true) {
+    const isPrettierPluginXmlInScope = isPackageInScope('@prettier/plugin-xml')
     options = {
       css: true,
       html: true,
-      svg: true,
-      xml: true,
+      svg: isPrettierPluginXmlInScope,
+      xml: isPrettierPluginXmlInScope,
     };
   }
 

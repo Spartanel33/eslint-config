@@ -1,5 +1,11 @@
 import type { Awaitable, TypedFlatConfigItem } from './types';
 
+import { fileURLToPath } from 'node:url';
+
+import { isPackageExists } from 'local-pkg';
+
+const scopeUrl = fileURLToPath(new URL('.', import.meta.url));
+
 export async function combine(
   ...configs: Awaitable<TypedFlatConfigItem | TypedFlatConfigItem[]>[]
 ): Promise<TypedFlatConfigItem[]> {
@@ -61,3 +67,7 @@ export const parserPlain = {
     },
   }),
 };
+
+export function isPackageInScope(name: string): boolean {
+  return isPackageExists(name, { paths: [scopeUrl] });
+}
