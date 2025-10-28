@@ -39,7 +39,7 @@ export async function javascript(options: OptionsOverrides = {}): Promise<TypedF
       },
       rules: {
         'accessor-pairs': ['error', { enforceForClassMembers: true, setWithoutGet: true }],
-        'array-callback-return': ['error', { checkForEach: true }],
+        'array-callback-return': ['error'],
         'block-scoped-var': 'error',
         'constructor-super': 'error',
         'default-case-last': 'error',
