@@ -237,15 +237,9 @@ export async function vue(
               'vue/template-curly-spacing': 'error',
               'vue/prefer-define-options': 'error',
               'vue/prefer-true-attribute-shorthand': 'error',
-              'vue/require-explicit-slots': 'error',
               'vue/require-macro-variable-name': 'error',
               'vue/require-typed-ref': 'error',
               'vue/v-for-delimiter-style': 'error',
-              'vue/v-on-handler-style': [
-                'error',
-                ['method', 'inline-function'],
-                { ignoreIncludesComment: false },
-              ],
             }
           : {},
 

@@ -50,6 +50,9 @@ export async function stylistic(options: StylisticOptions = {}): Promise<TypedFl
             before: false,
           },
         ],
+        'style/quote-props': ['error', 'as-needed'],
+        'style/function-call-argument-newline': ['error', 'consistent'],
+        'style/function-paren-newline': ['error', 'consistent'],
         'style/yield-star-spacing': [
           'error',
           {
